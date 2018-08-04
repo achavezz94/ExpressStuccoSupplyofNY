@@ -1,0 +1,211 @@
+a {
+  color:inherit;
+}
+
+.contactInfo{
+  font-family: Lato;
+  font-size: 30px;
+  float: left;
+}
+
+.homesummaryborder{
+  text-align:center;
+  clear:both;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.homesummary h1{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.header-text h1{
+  color: #fff;
+  width:500px;
+  background-color: #005FCA   ;
+  font-family: Lato;
+  font-size: 80px;
+}
+
+h1 {
+    font-family: Lato;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+p{
+  font-family: Lato;
+  font-size: 13pt;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header-text {
+    position: absolute;
+    top: 15%;
+    opacity: 0.5;
+}
+
+.linksInBubble{
+  padding-left: 20px;
+  font-family: Lato;
+}
+
+.navbar{
+  position: sticky;
+  top:0;
+  width:100%;
+  height:60px;
+}
+.navBarName{
+  padding-top: px;
+  font-size: 25px;
+  font-family: Lato;
+  color:white;
+  padding-right: 20px;
+}
+.navBarName a{
+  color:inherit;
+  text-decoration: none;
+}
+.nav-link{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.page-footer{
+  background-color: #005FCA   ;
+  color: white;
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom:0;
+  padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 30vw;
+    max-height: 200px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.partnerTexts{
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .custom-gallery{
+      display: block;
+      margin-left: 5%;
+      margin-right: auto;
+      padding-top: 50px;
+      padding-right: 50px;
+    }
+    .navBarNameText{
+      font-size: 23px;
+      padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 49.99999%;
+    }
+    .custom-gallery{
+      display: block;
+      margin-left: 5%;
+      margin-right: auto;
+      padding-top: 50px;
+    }
+
+    .navBarNameText{
+      font-size: 23px;
+      padding-top: 15px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.custom-gallery{
+  display: block;
+  margin:0;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.emailForm{
+  font-family: Lato;
+  float:right;
+  display: block;
+}
+
+.messageBox{
+  height:200px;
+  width:300px;
+}
+
+
+.mapouter{
+  text-align:right;
+  height:500px;
+  width:100%;
+  }
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:auto;
+}
+
+.productsList{
+  width:100%;
+  text-align: center;
+}
+
+td {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+}
+
+td:first-child {
+  padding-left:20px;
+  padding-right:0;
+}
+
+.partners{
+
+}
+
+.productsHeader{
+  text-align: center;
+  font-family: Lato;
+}
